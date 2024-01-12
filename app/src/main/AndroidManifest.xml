@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/cheers"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/cheers"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewYeyen"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashscreenAct"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NewYeyen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainAct"/>
+        <activity android:name=".LoginAct"/>
+        <activity android:name=".RegistAct"/>
+        <activity android:name=".ForgotPwAct"/>
+        <activity android:name=".HomeAct"/>
+        <activity android:name=".ProfileAct"/>
+        <activity android:name=".SettingAct"/>
+        <activity android:name=".ChatAct"/>
+        <activity android:name=".PersonAword"/>
+        <activity android:name=".PersonBeast"/>
+        <activity android:name=".PersonBigBro"/>
+        <activity android:name=".PersonDio"/>
+        <activity android:name=".PersonIbu"/>
+        <activity android:name=".PersonKa"/>
+        <activity android:name=".PersonIka"/>
+        <activity android:name=".PersonMin"/>
+        <activity android:name=".PersonNurul"/>
+        <activity android:name=".LanguageAct"/>
+        <activity android:name=".AboutAct"/>
+        <activity android:name=".GetHelpAct"/>
+        <activity android:name=".ScmdFacebookAct"/>
+        <activity android:name=".ScmdInstagramAct"/>
+        <activity android:name=".ScmdLineAct"/>
+        <activity android:name=".ScmdPinterestAct"/>
+        <activity android:name=".ScmdQuoraAct"/>
+        <activity android:name=".ScmdRedditAct"/>
+        <activity android:name=".ScmdTelegramAct"/>
+        <activity android:name=".ScmdTiktokAct"/>
+        <activity android:name=".ScmdTwitterAct"/>
+        <activity android:name=".ScmdWangsafAct"/>
+        <activity android:name=".ScmdYoutubeAct"/>
+        <activity android:name=".TabLayoutAct"/>
+    </application>
+
+</manifest>

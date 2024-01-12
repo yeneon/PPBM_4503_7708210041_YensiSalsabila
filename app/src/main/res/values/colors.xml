@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mellowyellow">#f8de7e</color>
+    <color name="harvestgold">#da9100</color>
+    <color name="goldenpoppy">#fcc200</color>
+    <color name="lemonmeng">#f6eabe</color>
+    <color name="saffron">#ffdb58</color>
+    <color name="tuscan">#a67b5b</color>
+</resources>

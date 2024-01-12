@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lemonmeng"
+    tools:context=".SettingZ">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/topp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-40dp"
+        android:id="@+id/topp"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/set"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-5dp"
+        android:id="@+id/pgtrn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/setting"
+        android:textColor="@color/tuscan"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/pgtrn"
+        android:text="SETTINGS"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="550dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/setting"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="LANGUAGE"
+            android:id="@+id/btn_lgng"
+            android:background="@drawable/button_profile"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="Get Help"
+            android:id="@+id/gethelp"
+            android:background="@drawable/button_profile"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:id="@+id/btn_abt"
+            android:textSize="30dp"
+            android:text="ABOUT"
+            android:background="@drawable/button_profile"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="LOG OUT"
+            android:background="@drawable/button_profile"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

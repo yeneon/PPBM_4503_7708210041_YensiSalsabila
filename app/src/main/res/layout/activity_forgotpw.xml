@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lemonmeng"
+    tools:context=".ForgotPwAct">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/space1"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/cheers"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/space1"
+        android:id="@+id/img1"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/img1"
+        android:layout_marginBottom="9dp"
+        android:src="@drawable/fpw"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_weight="1"
+        android:layout_below="@id/text2"
+        android:layout_marginTop="130dp"
+        android:hint="Linked Email"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:text="CHEERS"
+        android:fontFamily="@font/pio"
+        android:textSize="50dp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt1"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txt1"
+        android:text="Forgot Password?"
+        android:fontFamily="@font/cool"
+        android:textSize="35dp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/username"
+        android:id="@+id/btn">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="10dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Verify"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/goldenpoppy"
+            android:id="@+id/verif_btn"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

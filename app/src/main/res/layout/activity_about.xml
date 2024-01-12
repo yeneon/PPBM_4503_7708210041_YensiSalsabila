@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lemonmeng"
+    tools:context=".AboutAct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/abt"
+        android:layout_marginTop="18dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="240dp"
+                android:layout_height="180dp"
+                android:layout_marginBottom="24dp"
+                app:iss_auto_cycle="true"
+                app:iss_period="3500"
+                app:iss_delay="8000"
+                app:iss_text_align="CENTER"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/image_slider"
+                android:src="@drawable/latar"
+                android:id="@+id/latar"/>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="CHEERS was created by it.tel.corp in 2023. The owner is Yensi Salsabila, a student who is currently taking Semester 5, in Digital Creative Multimedia, Telkom University. She has the ambition to gain extensive knowledge in working with many people and likes to try many new things. This CHEERS was made to fulfill the PPBM Assessment 1."
+                android:textAlignment="center"
+                android:layout_below="@id/image_slider"
+                android:id="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/cool"
+                android:textSize="18dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnfb"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/latar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="36dp"
+                android:text="Feedback"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:background="@drawable/button_profile" />
+        </RelativeLayout>
+    </ScrollView>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/topp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-40dp"
+        android:id="@+id/topp"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/set"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-5dp"
+        android:id="@+id/pgtrn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/abt"
+        android:textColor="@color/tuscan"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/pgtrn"
+        android:text="ABOUT"/>
+
+
+
+</RelativeLayout>
